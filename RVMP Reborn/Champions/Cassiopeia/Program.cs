@@ -10,7 +10,7 @@ using static RVMPPrediction.RVMPPrediction;
 using static RVMPExtension.Extensions;
 
 
-namespace CassiopeiaRVMP
+namespace RVMPRebornCassiopeia
 {
     static class Program
     {
@@ -34,7 +34,7 @@ namespace CassiopeiaRVMP
 
 
 
-        public static void CassiopeiaLoading_OnLoadingComplete()
+        public static void OnGameLoad()
         {
             if (!_Player.CharacterName.Contains("Cassiopeia"))
             {
